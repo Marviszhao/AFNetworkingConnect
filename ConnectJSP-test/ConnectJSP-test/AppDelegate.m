@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    ViewController *rootVC = [[ViewController alloc] init];
+    
+    UINavigationController *rootNav = [[UINavigationController alloc] initWithRootViewController:rootVC];
+    //隐藏系统默认navbar
+    rootNav.navigationBarHidden = YES;
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    self.window.rootViewController = rootNav;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

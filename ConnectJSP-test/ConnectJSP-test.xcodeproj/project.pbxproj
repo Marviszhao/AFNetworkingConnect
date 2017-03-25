@@ -10,11 +10,14 @@
 		662325961E5D4F9100790F12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 662325951E5D4F9100790F12 /* main.m */; };
 		662325991E5D4F9100790F12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 662325981E5D4F9100790F12 /* AppDelegate.m */; };
 		6623259C1E5D4F9100790F12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6623259B1E5D4F9100790F12 /* ViewController.m */; };
-		6623259F1E5D4F9100790F12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6623259D1E5D4F9100790F12 /* Main.storyboard */; };
 		662325A11E5D4F9100790F12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662325A01E5D4F9100790F12 /* Assets.xcassets */; };
 		662325A41E5D4F9100790F12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662325A21E5D4F9100790F12 /* LaunchScreen.storyboard */; };
 		662325B61E5D528400790F12 /* LSBaseNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = 662325AE1E5D528400790F12 /* LSBaseNetWorking.m */; };
 		662325B91E5D528400790F12 /* LSNetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 662325B41E5D528400790F12 /* LSNetWorkManager.m */; };
+		668AA2811E860A6C001DB78C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 668AA2801E860A6C001DB78C /* ViewController.xib */; };
+		668AA2861E860F56001DB78C /* MABaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 668AA2841E860F56001DB78C /* MABaseViewController.m */; };
+		668AA28B1E8613A7001DB78C /* MACommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 668AA28A1E8613A7001DB78C /* MACommon.m */; };
+		668AA28E1E861676001DB78C /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 668AA28D1E861676001DB78C /* CustomViewController.m */; };
 		8F8035E6668CF59CFCEA182D /* Pods_ConnectJSP_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134E65A65B6E3A821D32B887 /* Pods_ConnectJSP_test.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +29,6 @@
 		662325981E5D4F9100790F12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6623259A1E5D4F9100790F12 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6623259B1E5D4F9100790F12 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6623259E1E5D4F9100790F12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		662325A01E5D4F9100790F12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		662325A31E5D4F9100790F12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		662325A51E5D4F9100790F12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,6 +38,13 @@
 		662325B41E5D528400790F12 /* LSNetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSNetWorkManager.m; sourceTree = "<group>"; };
 		662325B51E5D528400790F12 /* LSNetWorkManagerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSNetWorkManagerInterface.h; sourceTree = "<group>"; };
 		662325BC1E5D52C600790F12 /* LSConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSConstants.h; sourceTree = "<group>"; };
+		668AA2801E860A6C001DB78C /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		668AA2831E860F56001DB78C /* MABaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MABaseViewController.h; sourceTree = "<group>"; };
+		668AA2841E860F56001DB78C /* MABaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MABaseViewController.m; sourceTree = "<group>"; };
+		668AA2891E8613A7001DB78C /* MACommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MACommon.h; sourceTree = "<group>"; };
+		668AA28A1E8613A7001DB78C /* MACommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MACommon.m; sourceTree = "<group>"; };
+		668AA28C1E861676001DB78C /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		668AA28D1E861676001DB78C /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
 		F6109690B1DB28B804DE5C43 /* Pods-ConnectJSP-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectJSP-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ConnectJSP-test/Pods-ConnectJSP-test.debug.xcconfig"; sourceTree = "<group>"; };
 		F980025CE9CE8347B7BF69DE /* Pods-ConnectJSP-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectJSP-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConnectJSP-test/Pods-ConnectJSP-test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,8 +105,9 @@
 				662325981E5D4F9100790F12 /* AppDelegate.m */,
 				6623259A1E5D4F9100790F12 /* ViewController.h */,
 				6623259B1E5D4F9100790F12 /* ViewController.m */,
-				6623259D1E5D4F9100790F12 /* Main.storyboard */,
-				662325A01E5D4F9100790F12 /* Assets.xcassets */,
+				668AA2801E860A6C001DB78C /* ViewController.xib */,
+				668AA28C1E861676001DB78C /* CustomViewController.h */,
+				668AA28D1E861676001DB78C /* CustomViewController.m */,
 				662325A21E5D4F9100790F12 /* LaunchScreen.storyboard */,
 				662325A51E5D4F9100790F12 /* Info.plist */,
 				662325941E5D4F9100790F12 /* Supporting Files */,
@@ -108,6 +118,7 @@
 		662325941E5D4F9100790F12 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				662325A01E5D4F9100790F12 /* Assets.xcassets */,
 				662325951E5D4F9100790F12 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -136,6 +147,8 @@
 		662325BA1E5D52C600790F12 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				668AA2881E86133B001DB78C /* Util */,
+				668AA2821E860B2C001DB78C /* Base */,
 				662325BB1E5D52C600790F12 /* DeclareFile */,
 			);
 			path = Common;
@@ -147,6 +160,24 @@
 				662325BC1E5D52C600790F12 /* LSConstants.h */,
 			);
 			path = DeclareFile;
+			sourceTree = "<group>";
+		};
+		668AA2821E860B2C001DB78C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				668AA2831E860F56001DB78C /* MABaseViewController.h */,
+				668AA2841E860F56001DB78C /* MABaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		668AA2881E86133B001DB78C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				668AA2891E8613A7001DB78C /* MACommon.h */,
+				668AA28A1E8613A7001DB78C /* MACommon.m */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +244,7 @@
 			files = (
 				662325A41E5D4F9100790F12 /* LaunchScreen.storyboard in Resources */,
 				662325A11E5D4F9100790F12 /* Assets.xcassets in Resources */,
-				6623259F1E5D4F9100790F12 /* Main.storyboard in Resources */,
+				668AA2811E860A6C001DB78C /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +306,10 @@
 				6623259C1E5D4F9100790F12 /* ViewController.m in Sources */,
 				662325B91E5D528400790F12 /* LSNetWorkManager.m in Sources */,
 				662325991E5D4F9100790F12 /* AppDelegate.m in Sources */,
+				668AA28E1E861676001DB78C /* CustomViewController.m in Sources */,
+				668AA2861E860F56001DB78C /* MABaseViewController.m in Sources */,
 				662325961E5D4F9100790F12 /* main.m in Sources */,
+				668AA28B1E8613A7001DB78C /* MACommon.m in Sources */,
 				662325B61E5D528400790F12 /* LSBaseNetWorking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,14 +317,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6623259D1E5D4F9100790F12 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6623259E1E5D4F9100790F12 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		662325A21E5D4F9100790F12 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -396,6 +422,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TP9NLAMUCX;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ConnectJSP-test/Common/DeclareFile/LSConstants.h";
 				INFOPLIST_FILE = "ConnectJSP-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xinxindong.ConnectJSP-test";
@@ -409,6 +436,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TP9NLAMUCX;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ConnectJSP-test/Common/DeclareFile/LSConstants.h";
 				INFOPLIST_FILE = "ConnectJSP-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xinxindong.ConnectJSP-test";

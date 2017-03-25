@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "LSNetWorkManager.h"
+#import "CustomViewController.h"
 
 @interface ViewController ()
 
@@ -27,13 +28,18 @@
 }
 
 -(IBAction)buttonClick :(UIButton *)butt{
-    NSString *userName = self.userNameTF.text;
-    NSString *usePsw = self.userPswTF.text;
-    [[LSNetWorkManager shareInstance] doReqLoginWithUserName:userName password:usePsw success:^(id data) {
+    if (butt.tag == 100) {
+        NSString *userName = self.userNameTF.text;
+        NSString *usePsw = self.userPswTF.text;
+        [[LSNetWorkManager shareInstance] doReqLoginWithUserName:userName password:usePsw success:^(id data) {
+            
+        } failure:^(NSInteger resStatus, id data) {
         
-    } failure:^(NSInteger resStatus, id data) {
-        
-    }];
+        }];
+    } else if (butt.tag == 101){
+        CustomViewController *cusVC = [[CustomViewController alloc] init];
+        [self.navigationController pushViewController:cusVC animated:YES];
+    }
     
 }
 
